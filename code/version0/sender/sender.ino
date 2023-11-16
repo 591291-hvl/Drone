@@ -63,7 +63,7 @@ void loop() {
   analogWrite(5, abs(mapXR));
   
   //Radio
-  const char text[] = "Fuck you man";
+  const char text[] = "Hello";
   Serial.println(text);
   radio.write(&text, sizeof(text));
   delay(1000);
